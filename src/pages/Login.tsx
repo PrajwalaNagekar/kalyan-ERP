@@ -8,7 +8,7 @@ import { InputOTP, InputOTPGroup, InputOTPSlot } from "@/components/ui/input-otp
 import { useToast } from "@/hooks/use-toast";
 import { Eye, EyeOff, ShieldCheck, Lock } from "lucide-react";
 import loginBg from "@/assets/login-jewellery-bg.jpg";
-import kalyanLogo from "@/assets/kalyan-logo-gold.png";
+import malabarLogo from "@/assets/malabar-red-logo.jpeg";
 import { DEFAULT_LANDING } from "@/config/rbac";
 import type { RoleGroup } from "@/config/rbac";
 import { useAuth } from "@/contexts/AuthContext";
@@ -122,16 +122,15 @@ const Login = () => {
         <div className="absolute bottom-1/4 right-1/4 w-40 h-40 rounded-full border border-primary/20 hidden lg:block" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full px-8 text-center">
           <div className="inline-flex items-center justify-center w-20 h-20 lg:w-28 lg:h-28 rounded-2xl mb-4 lg:mb-6">
-            <img src={kalyanLogo} alt="Kalyan Jewellers" className="w-full h-full object-contain drop-shadow-lg" />
+            <img src={malabarLogo} alt="Malabar Gold & Diamonds" className="w-full h-full object-contain drop-shadow-lg" />
           </div>
-          <h1 className="text-3xl lg:text-5xl font-serif font-bold text-white drop-shadow-lg">Kalyan Jewellers</h1>
+          <h1 className="text-3xl lg:text-5xl font-serif font-bold text-white drop-shadow-lg">Malabar Gold & Diamonds</h1>
           <div className="w-24 h-[2px] gold-gradient mx-auto my-3 lg:my-4" />
-          <p className="text-primary text-base lg:text-xl tracking-[0.35em] uppercase font-semibold drop-shadow-lg" style={{ textShadow: '0 0 20px hsla(43,56%,52%,0.5)' }}>Trust of Generations</p>
-          <p className="text-white/90 text-sm lg:text-base mt-2 lg:mt-3 max-w-xs">India's Most Trusted Jewellery Brand</p>
+          <p className="text-primary text-base lg:text-xl tracking-[0.35em] uppercase font-semibold drop-shadow-lg" style={{ textShadow: '0 0 20px hsla(43,56%,52%,0.5)' }}>Celebrate the Beauty of Life</p>
           <div className="hidden lg:flex items-center gap-6 mt-10 text-white/50 text-xs tracking-wider">
             <span>Since 1993</span>
             <span className="w-1 h-1 rounded-full bg-primary" />
-            <span>200+ Showrooms</span>
+            <span>400+ Showrooms</span>
             <span className="w-1 h-1 rounded-full bg-primary" />
             <span>BIS Hallmarked</span>
           </div>
@@ -253,7 +252,7 @@ const Login = () => {
             </form>
           )}
 
-          <p className="text-center text-[10px] text-gray-400 mt-8">© 2026 Kalyan Jewellers ERP — Bangalore</p>
+          <p className="text-center text-[10px] text-gray-400 mt-8">© 2026 Malabar Gold & Diamonds ERP — Bangalore</p>
         </div>
       </div>
     </div>

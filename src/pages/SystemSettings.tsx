@@ -35,7 +35,7 @@ const SystemSettings = () => {
   const [confirmToggle, setConfirmToggle] = useState<{ key: keyof ToggleState; newValue: boolean } | null>(null);
 
   const [general, setGeneral] = useState({
-    companyName: "Kalyan Jewellers Pvt. Ltd.",
+    companyName: "Malabar Gold & Diamonds Pvt. Ltd.",
     headquarters: "Bangalore, Karnataka",
     gstNumber: "29AABCK1234F1ZN",
     currency: "INR",

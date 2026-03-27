@@ -3,7 +3,7 @@ import {
   LogOut, ChevronDown,
 } from "lucide-react";
 import defaultAvatar from "@/assets/default-avatar.jpg";
-import kalyanBanner from "@/assets/kalyan-sidebar-banner.png";
+import malabarLogo from "@/assets/malabar-white-logo.jpeg";
 import { NavLink } from "@/components/NavLink";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
@@ -65,8 +65,8 @@ export function AppSidebar() {
 
       {!collapsed && (
         <div className="px-3 pb-2">
-          <div className="relative rounded-lg overflow-hidden border border-primary/20 shadow-gold" style={{ backgroundColor: '#8B1A3A' }}>
-            <img src={kalyanBanner} alt="Kalyan Jewellers" className="w-full h-[100px] object-contain p-2" />
+          <div className="relative rounded-lg overflow-hidden border border-primary/20 shadow-gold" style={{ backgroundColor: '#ffffff' }}>
+            <img src={malabarLogo} alt="Malabar Gold & Diamonds" className="w-full h-[100px] object-contain p-2" />
           </div>
         </div>
       )}

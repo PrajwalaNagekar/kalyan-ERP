@@ -76,7 +76,7 @@ const SettingsPage = () => {
             <CardContent className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
-                  ["Company Name", "Kalyan Jewellers"],
+                  ["Company Name", "Malabar Gold & Diamonds"],
                   ["Headquarters", "Bangalore, Karnataka"],
                   ["Active Branches", `${branches.filter(b => b.is_active).length}`],
                   ["GST Number", "29AABCK1234F1Z5"],

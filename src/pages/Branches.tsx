@@ -139,7 +139,7 @@ const Branches = () => {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
           <h1 className="text-2xl font-serif font-bold text-foreground">Branch Management</h1>
-          <p className="text-sm text-muted-foreground mt-1">Manage all Kalyan Jewellers branches</p>
+          <p className="text-sm text-muted-foreground mt-1">Manage all Malabar Gold & Diamonds branches</p>
         </div>
         <Button onClick={() => { resetForm(); setShowAdd(true); }} className="gold-gradient text-primary-foreground">
           <Plus className="w-4 h-4 mr-2" /> Add Branch

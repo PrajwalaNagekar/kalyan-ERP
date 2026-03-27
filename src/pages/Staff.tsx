@@ -34,16 +34,16 @@ interface StaffMember {
 }
 
 const initialStaff: StaffMember[] = [
-  { id: "1", name: "Rajesh Kumar", email: "rajesh@kalyan.com", role: "branch_manager", branch: "Jayanagar", phone: "+91 98451 23456", status: "Active" },
-  { id: "2", name: "Priya Sharma", email: "priya@kalyan.com", role: "sales_executive", branch: "Marathahalli", phone: "+91 98452 34567", status: "Active" },
-  { id: "3", name: "Suresh Reddy", email: "suresh@kalyan.com", role: "cashier", branch: "Rajajinagar", phone: "+91 98453 45678", status: "Active" },
-  { id: "4", name: "Anita Patel", email: "anita@kalyan.com", role: "accountant", branch: "Whitefield", phone: "+91 98454 56789", status: "Active" },
-  { id: "5", name: "Vikram Singh", email: "vikram@kalyan.com", role: "goldsmith", branch: "Koramangala", phone: "+91 98455 67890", status: "Active" },
-  { id: "6", name: "Meena Devi", email: "meena@kalyan.com", role: "inventory_manager", branch: "Jayanagar", phone: "+91 98456 78901", status: "Active" },
-  { id: "7", name: "Arjun Nair", email: "arjun@kalyan.com", role: "sales_executive", branch: "Whitefield", phone: "+91 98457 89012", status: "Inactive" },
-  { id: "8", name: "Lakshmi Iyer", email: "lakshmi@kalyan.com", role: "branch_manager", branch: "Koramangala", phone: "+91 98458 90123", status: "Active" },
-  { id: "9", name: "Deepak Joshi", email: "deepak@kalyan.com", role: "cashier", branch: "Marathahalli", phone: "+91 98459 01234", status: "Active" },
-  { id: "10", name: "Kavitha Rao", email: "kavitha@kalyan.com", role: "central_admin", branch: "Jayanagar", phone: "+91 98460 12345", status: "Active" },
+  { id: "1", name: "Rajesh Kumar", email: "rajesh@malabargold.com", role: "branch_manager", branch: "Jayanagar", phone: "+91 98451 23456", status: "Active" },
+  { id: "2", name: "Priya Sharma", email: "priya@malabargold.com", role: "sales_executive", branch: "Marathahalli", phone: "+91 98452 34567", status: "Active" },
+  { id: "3", name: "Suresh Reddy", email: "suresh@malabargold.com", role: "cashier", branch: "Rajajinagar", phone: "+91 98453 45678", status: "Active" },
+  { id: "4", name: "Anita Patel", email: "anita@malabargold.com", role: "accountant", branch: "Whitefield", phone: "+91 98454 56789", status: "Active" },
+  { id: "5", name: "Vikram Singh", email: "vikram@malabargold.com", role: "goldsmith", branch: "Koramangala", phone: "+91 98455 67890", status: "Active" },
+  { id: "6", name: "Meena Devi", email: "meena@malabargold.com", role: "inventory_manager", branch: "Jayanagar", phone: "+91 98456 78901", status: "Active" },
+  { id: "7", name: "Arjun Nair", email: "arjun@malabargold.com", role: "sales_executive", branch: "Whitefield", phone: "+91 98457 89012", status: "Inactive" },
+  { id: "8", name: "Lakshmi Iyer", email: "lakshmi@malabargold.com", role: "branch_manager", branch: "Koramangala", phone: "+91 98458 90123", status: "Active" },
+  { id: "9", name: "Deepak Joshi", email: "deepak@malabargold.com", role: "cashier", branch: "Marathahalli", phone: "+91 98459 01234", status: "Active" },
+  { id: "10", name: "Kavitha Rao", email: "kavitha@malabargold.com", role: "central_admin", branch: "Jayanagar", phone: "+91 98460 12345", status: "Active" },
 ];
 
 const PAGE_SIZE = 5;
@@ -126,7 +126,7 @@ const Staff = () => {
           </div>
           <div className="space-y-2">
             <Label>Email *</Label>
-            <Input type="email" value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} className="bg-muted border-border" placeholder="e.g., rajesh@kalyan.com" />
+            <Input type="email" value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} className="bg-muted border-border" placeholder="e.g., rajesh@malabargold.com" />
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-2">

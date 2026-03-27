@@ -73,7 +73,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setProfile(DEMO_PROFILES[roleGroup]);
     // Create a fake session marker so ProtectedRoute allows through
     setSession({ user: { id: "demo-user" } } as any);
-    setUser({ id: "demo-user", email: "demo@kalyanjewellers.com" } as any);
+    setUser({ id: "demo-user", email: "demo@malabargold.com" } as any);
     setLoading(false);
   };
 
