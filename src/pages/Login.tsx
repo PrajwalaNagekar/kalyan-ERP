@@ -8,7 +8,7 @@ import { InputOTP, InputOTPGroup, InputOTPSlot } from "@/components/ui/input-otp
 import { useToast } from "@/hooks/use-toast";
 import { Eye, EyeOff, ShieldCheck, Lock } from "lucide-react";
 import loginBg from "@/assets/login-jewellery-bg.jpg";
-import malabarLogo from "@/assets/malabar-red-logo.jpeg";
+import malabarLogo from "@/assets/malabar-logo.png";
 import { DEFAULT_LANDING } from "@/config/rbac";
 import type { RoleGroup } from "@/config/rbac";
 import { useAuth } from "@/contexts/AuthContext";
@@ -121,9 +121,13 @@ const Login = () => {
         <div className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full border border-primary/15 hidden lg:block" />
         <div className="absolute bottom-1/4 right-1/4 w-40 h-40 rounded-full border border-primary/20 hidden lg:block" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full px-8 text-center">
-          <div className="inline-flex items-center justify-center w-20 h-20 lg:w-28 lg:h-28 rounded-2xl mb-4 lg:mb-6">
-            <img src={malabarLogo} alt="Malabar Gold & Diamonds" className="w-full h-full object-contain drop-shadow-lg" />
-          </div>
+         <div className="inline-flex items-center justify-center w-48 h-48 lg:w-64 lg:h-64 rounded-2xl mb-4 lg:mb-6">
+  <img
+    src={malabarLogo}
+    alt="Malabar Gold & Diamonds"
+    className="w-full h-full object-contain drop-shadow-lg"
+  />
+</div>
           <h1 className="text-3xl lg:text-5xl font-serif font-bold text-white drop-shadow-lg">Malabar Gold & Diamonds</h1>
           <div className="w-24 h-[2px] gold-gradient mx-auto my-3 lg:my-4" />
           <p className="text-primary text-base lg:text-xl tracking-[0.35em] uppercase font-semibold drop-shadow-lg" style={{ textShadow: '0 0 20px hsla(43,56%,52%,0.5)' }}>Celebrate the Beauty of Life</p>
